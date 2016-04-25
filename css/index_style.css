@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #222;
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+h1{
+  font-family: "fjalla one", sans-serif;
+}
+
+header{
+  display: block;
+  text-align: center;
+}
+
+
+a:link {
+  color: rgb(210, 180, 140);
+}
+a:visited {
+  color: rgb(184, 134, 11);
+}
+a:hover {
+  color: rgb(255, 222, 173);
+}
+a:active {
+  color: rgb(50, 53, 55); /* gray */
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+
+#astrid {
+  text-align:center;
+}
+
+#container{
+  max-width: 960px;
+  margin: 0 auto;
+  border: 3px solid #D2B48C;
+}
+
+@media(max-width:320px) {
+  nav{
+   font-size: 10px;
+  }
+
+  h1{
+    font-size: 20px;
+  }
+
+  #container{
+    width:310px;
+    height:558px;
+  }
+
+  img{
+    width:300px;
+    height:300px;
+
+  }
+
+  }
